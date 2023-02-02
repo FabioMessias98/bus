@@ -1,0 +1,11 @@
+$utility-name: 'u-bg-folk';
+
+.#{$utility-name} {
+    &-cyan {
+        background-color: $color-folk-cyan !important;
+    }
+
+    &-purple {
+        background-color: $color-folk-purple !important;
+    }
+}

@@ -1,0 +1,31 @@
+$utility-name: 'u-font-size';
+
+.#{$utility-name} {
+    &-0 {
+        font-size: 0 !important
+    }
+
+    &-16 {
+        font-size: 1rem !important
+    }
+
+    &-20 {
+        font-size: 1.25rem !important;
+    }
+}
+
+.before\:\: {
+    &#{$utility-name} {
+        &-20 {
+            &::before {
+                font-size: 1.25rem !important;
+            }
+        }
+
+        &-32 {
+            &::before {
+                font-size: 2rem !important;
+            }
+        }
+    }
+}

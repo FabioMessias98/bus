@@ -1,0 +1,27 @@
+$utility-name: 'u-icon';
+
+.#{$utility-name} {
+    &__free {
+        &::before {
+            font-family: 'Font Awesome 5 Free';
+        }
+    }
+
+    &__back {
+        &::before {
+            content: '\f060';
+        }
+    }
+
+    &__house {
+        &::before {
+            content: '\f015';
+        }
+    }
+
+    &__list {
+        &::before {
+            content: '\f03a';
+        }
+    }
+}
